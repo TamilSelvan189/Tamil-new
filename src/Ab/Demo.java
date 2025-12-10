@@ -11,6 +11,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
 
 public class Demo {
 
@@ -39,6 +40,8 @@ public class Demo {
 			r.keyRelease(KeyEvent.VK_ENTER);
 			
 			System.out.println("This is the Update Code");
+			System.out.println("Hi");
+			Select s=new Select(searchBox);
 			 
 		
 	}
